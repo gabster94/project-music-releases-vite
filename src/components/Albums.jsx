@@ -1,7 +1,7 @@
-import data from "./data.json";
-// import React from "react";
+import data from "../data.json";
 import { Album } from "./Album";
 
+console.log(data);
 // The Albums component is responsible for rendering a list of albums.
 // It maps through the data and renders an individual Album component for each album.
 export const Albums = () => {
