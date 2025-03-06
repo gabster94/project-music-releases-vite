@@ -5,7 +5,7 @@ import React from "react";
 
 export const ArtistName = ({ album }) => {
   return (
-    <p>
+    <p className="artist-name">
       {/* Map over the `artists` array and display each artist's name with a link to their Spotify page */}
       {album.artists.map((artist, index) => (
         // React.Fragment is used here to avoid adding extra DOM elements (like <div>s)

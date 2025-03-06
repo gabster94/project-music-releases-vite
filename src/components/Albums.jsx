@@ -7,7 +7,8 @@ console.log(data);
 export const Albums = () => {
   return (
     <main>
-      <ul>
+      {/* This ul contains all album cards */}
+      <ul className="album-grid">
         {/* Map over each album in the data.json and pass each album as a prop to the Album component */}
         {data.albums.items.map((album) => (
           <Album album={album} key={album.id} />
@@ -16,3 +17,5 @@ export const Albums = () => {
     </main>
   );
 };
+
+// styling will be done here
